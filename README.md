@@ -28,3 +28,9 @@ Build and Run your application
 npm run build
 npm run start
 ```
+
+To install Chakra ui :
+```.js
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+```
+

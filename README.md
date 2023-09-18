@@ -9,12 +9,12 @@ Next.js is a a good Framework based on React and that e­nables server-side­ re
 npx create-next-app my-first-app
 ```
 Options    
-√ Would you like to use TypeScript? ... No / Yes    
-√ Would you like to use ESLint? ... No / Yes    
-√ Would you like to use Tailwind CSS? ... No / Yes    
-√ Would you like to use `src/` directory? ... No / Yes    
-√ Would you like to use App Router? (recommended) ... No / Yes    
-√ Would you like to customize the default import alias? ... No / Yes    
+√ Would you like to use TypeScript? ... No / *Yes*    
+√ Would you like to use ESLint? ... No / *Yes*    
+√ Would you like to use Tailwind CSS? ... *No* / Yes    
+√ Would you like to use `src/` directory? ... No / *Yes*    
+√ Would you like to use App Router? (recommended) ... No / *Yes*    
+√ Would you like to customize the default import alias? ... *No* / Yes    
 
 
 Go to application folder, and open it using vscode editor:    
@@ -23,14 +23,20 @@ cd my-first-app
 code .    
 ```
 
-Build and Run your application    
-```.js
-npm run build
-npm run start
-```
-
 To install Chakra ui :
 ```.js
 npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
 
+Under src create 3 folders :
+```.js
+components
+themes
+utils
+```
+
+Build and Run your application    
+```.js
+npm run build
+npm run start
+```

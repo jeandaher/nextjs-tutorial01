@@ -1,4 +1,4 @@
-# nextJs Tutorial 01 - ToDo    
+# NextJs Tutorial 01 - ToDo    
 
 In this tutorial, we will learn NextJs and Applying CRUDE methods on ToDo Object.    
 

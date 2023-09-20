@@ -257,7 +257,7 @@ import TodoList from "@/components/todo/TodoList"
 const Home = () => {
 	
 	return (
-		<Todoto />
+		<TodoList />
 	);
 };
 
